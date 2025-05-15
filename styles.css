@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #007bff;
+}
+
+header h2 {
+  font-size: 1.2em;
+  color: #555;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff44;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.icon {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #999;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-print {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.btn-print:hover {
+  background-color: #0056b3;
+}
+
+.qr-code {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.qr-code img {
+  width: 120px;
+}
+
+.form-section {
+  margin-top: 40px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-section h3 {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+.portfolio-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.portfolio-link a {
+  color: #17a2b8;
+  text-decoration: none;
+  font-weight: bold;
+}
